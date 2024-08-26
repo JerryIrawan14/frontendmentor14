@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script defer src="script.js"></script>
+</head>
+<body>
+ <section class="flex-layout">
+    <div class="balance flex-layout">
+      <div><p>My balance</p>
+      <h2>$921.48</h2></div>
+      <div><img src="/images/logo.svg" alt=""></div>
+    </div>
+    <div class="chart">
+      <h2>Spending - Last 7 days</h2>
+      <canvas id="myChart" style="width: 100%;max-width: 700px;">
+
+      </canvas>
+      <div class="total flex-layout">
+        <div>
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="spending flex-layout">
+          <span>+2.4%</span>
+          <p>from last month</p>
+        </div>
+      </div>
+    </div>
+ </section>
+
+
+
+
+  <!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month -->
+  
+ 
+</body>
+</html>
